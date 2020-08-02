@@ -60,16 +60,49 @@ header #menu{
 }
 
 /* ---------- Pie de pagina - Footer---------- */
-footer{
-    background-color: #45ffc7;
-    padding: 10px;
+#footer{
+    background-color:  #438d7e;
+    padding: 0px 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .contenedor{
-    width: 33%;
+    padding: 20px;
+    width: 25%;
 }
-.container{
-    height: 1000px;
 
-}   
+.contenedor p:first-child{
+    padding: 5px 0px 5px 0px;
+    font-size: 20px;
+    background-color: #45ffc7;
+    text-align: center;
+    transform: rotate(-5deg);
+}
+
+.contenedor a{
+    font-size: 35px;
+    color: #ffff;
+    margin: 0px 10px;
+
+}
+
+.contenedor > a i:hover{
+    color:  #e62f2d;
+}
+
+.contenedor > p:last-of-type {
+    font-size: 16px;
+    color: #ffff;
+    text-align: center;
+}
+
+.imail, span{
+    font-size: 16px;
+    margin: 0px 5px;
+    text-align: center;
+    color: #ffff;
+
+}
