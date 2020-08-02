@@ -11,3 +11,11 @@ $(document).ready(function(){
 	});
  
 });
+
+//------Efecto hover en las imagenes --------
+$(".hover").mouseleave(
+	function () {
+	  $(this).removeClass("hover");
+	}
+  );
+  
