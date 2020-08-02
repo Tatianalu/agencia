@@ -5,33 +5,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/menu.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>Document</title>
 </head>
 
 <body>
-  <header>
-    <iframe src="menu/header.html"></iframe>
+  <header> <!--Menú-->
+     <!-- Inicio del logo-->
+     <nav class="color logo">
+      <div id="hijo">
+         <h1>Logo</h1> 
+      </div>
+  </nav>
+  <!--Fin del Logo-->
+  <!--Menu-->
+  <nav id="menu" class="menu color">
+      <ul>
+          <li><a href="">Temas</a></li>
+          <li><a href="">Noticias</a></li>
+          <li><a href="">Fotos</a></li>
+          <li><a href="">Vectores</a></li>
+          <li><a href="">Colaboradores</a></li>
+      </ul>
+  </nav>
+    <!--Menu-->
   </header>
-  <div class="container"></div>
-  <div class="card" style="width: 18rem;">
-    <img src="prueba2.jpg" class="card-img-top" alt="">
-
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-        content.
-      </p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+  
+  <section> <!--Cuerpo-->
+    <div class="card" style="width: 18rem;">
+      <img src="imagenes/prueba2.jpg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
     </div>
-  </div>
-  <section>
-    <div class="container"></div>
   </section>
-  <footer>
-    <iframe src="menu/footer.html"></iframe>
+  
+  <footer> <!--Pie de pagina -->
+    <div class="contenedor">
+        <h2>Contactenos</h2>
+    </div>
+    <div class="contenedor">
+        <h2>Redes sociales</h2>
+    </div>
+      <div class="contenedor">
+        <h1>logo</h1>
+      </div>
   </footer>
-
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="/js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -40,7 +66,6 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
-  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
