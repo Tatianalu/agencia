@@ -13,32 +13,32 @@ $sixth-color: #ffffff;
     margin: 0px;
     font-family: 'Nunito', sans-serif;
 }
-.color{
+.colors{
     background-color: #f1aad9;
 }
-.logo{
+.logoimg{
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header #menu{
+header #barra{
     -webkit-transform: all ease .5e;
     -o-transform: all ease .5e;
     transition: all ease .5e;
 }
-#menu ul{
+#barra ul{
     list-style: none;
     overflow: hidden;
     
     padding: 10px;
 }
 
-#menu ul li{
+#barra ul li{
     float: left;
 }
 
-#menu ul li a{
+#barra ul li a{
     text-decoration: none;
     font-size: 25px;
     padding: 10px;
@@ -47,7 +47,7 @@ header #menu{
     font-weight: 600;
 }
 
-#menu ul li a:hover{
+#barra ul li a:hover{
     color: #F20A95;
 }
 
