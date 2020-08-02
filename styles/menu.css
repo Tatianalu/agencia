@@ -6,6 +6,7 @@ $third-color: #45ffc7;
 $fourth-color:#fbff11;
 $fifth-color: #e62f2d;
 $sixth-color: #ffffff;
+#f1aad9
 */
 /* ---------- Encabezado - Menú---------- */
 *{
@@ -14,7 +15,7 @@ $sixth-color: #ffffff;
     font-family: 'Nunito', sans-serif;
 }
 .colors{
-    background-color: #f1aad9;
+    background-color: #000000;
 }
 .logoimg{
     padding: 10px;
