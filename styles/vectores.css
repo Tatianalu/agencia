@@ -1,12 +1,12 @@
-*{
-   font-family: 'Nunito', sans-serif;
+* {
+  font-family: "Nunito", sans-serif;
 }
-.caja1{
-    display: flex;
-    flex-wrap: nowrap;
+.caja1 {
+  display: flex;
+  flex-wrap: nowrap;
 }
 figure.snip1477 {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   position: relative;
   overflow: hidden;
   margin: 20px;
@@ -31,6 +31,7 @@ figure.snip1477 img {
   backface-visibility: hidden;
   vertical-align: top;
   opacity: 0.9;
+  height: 200px;
 }
 figure.snip1477 .title {
   position: absolute;
@@ -43,7 +44,7 @@ figure.snip1477 .title:after {
   height: 2px;
   width: 400px;
   position: absolute;
-  content: '';
+  content: "";
   background-color: #ffffff;
 }
 figure.snip1477 .title:before {
@@ -63,7 +64,7 @@ figure.snip1477 .title div:after {
   width: 2px;
   height: 300px;
   position: absolute;
-  content: '';
+  content: "";
   background-color: #ffffff;
 }
 figure.snip1477 .title div:before {
